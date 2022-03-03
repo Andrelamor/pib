@@ -1,0 +1,200 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "2021-3-serie-encadeada",
+      "path": "2021-3-serie-encadeada.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default",
+            "title": "ano",
+            "description": "Os resultados trimestrais de 2020 a 2021 permanecem como preliminares até a divulgação das pesquisas estruturais do IBGE e sua incorporação pelo Sistema de Contas Regionais (SCR-MG)."
+          },
+          {
+            "name": "TRIMESTRE",
+            "type": "integer",
+            "format": "default",
+            "title": "trimestre"
+          },
+          {
+            "name": "AGROPECUARIA-TOTAL",
+            "type": "integer",
+            "format": "default",
+            "title": "total referente à agropecuária"
+          },
+          {
+            "name": "EXTR_MINERAL",
+            "type": "integer",
+            "format": "default",
+            "title": "Indústria - extração mineral "
+          },
+          {
+            "name": "TRANSFORMACAO",
+            "type": "integer",
+            "format": "default",
+            "title": "Indústria - Transformação"
+          },
+          {
+            "name": "ENERGIA_SANEAMENTO",
+            "type": "integer",
+            "format": "default",
+            "title": "Indústria - Energia e Saneamento"
+          },
+          {
+            "name": "CONSTRUCAO_CIVIL",
+            "type": "integer",
+            "format": "default",
+            "title": "Indústria - Construção Civil"
+          },
+          {
+            "name": "INDUSTRIA-TOTAL",
+            "type": "integer",
+            "format": "default",
+            "title": "Indústria - TOTAL"
+          },
+          {
+            "name": "COMERCIO",
+            "type": "integer",
+            "format": "default",
+            "title": "Serviços - Comércio",
+            "description": "Comércio inclusive manutenção e reparação de veículos automotores e motocicletas."
+          },
+          {
+            "name": "TRANSPORTE",
+            "type": "integer",
+            "format": "default",
+            "title": "Serviços - Transporte"
+          },
+          {
+            "name": "OUTROS",
+            "type": "integer",
+            "format": "default",
+            "title": "Serviços - Outros",
+            "description": "Outros serviços incluem serviços de alojamento e alimentação; serviços de informação e comunicação; intermediação financeira, seguros e previdência complementar; atividades profissionais, científicas, técnicas e administrativas; educação e saúde privada; serviços domésticos; artes, cultura, esporte, recreação e outras atividades de serviços; e atividades imobiliárias e aluguéis (inserida ao agrupamento de outros serviços após a incorporação da retropolação e conclusão dos aperfeiçoamentos metodológicos na referência 2010)."
+          },
+          {
+            "name": "ADMINISTRACAO_PUBLICA",
+            "type": "integer",
+            "format": "default",
+            "title": "Serviços - Administração Pública"
+          },
+          {
+            "name": "SERVICOS-TOTAL",
+            "type": "integer",
+            "format": "default",
+            "title": "Serviços - TOTAL"
+          },
+          {
+            "name": "VA",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor Agregado"
+          },
+          {
+            "name": "IMPOSTOS",
+            "type": "integer",
+            "format": "default",
+            "title": "Impostos"
+          },
+          {
+            "name": "PIB",
+            "type": "integer",
+            "format": "default",
+            "title": "Produto Interno Bruto"
+          }
+        ]
+      },
+      "title": "PIB 2021-3º trimestre - série encadeada",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Média de 2002 = 100"
+    },
+    {
+      "name": "2021-3-valores-correntes",
+      "path": "2021-3-valores-correntes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano",
+            "description": "Os resultados trimestrais para os valores correntes de 2020 a 2021 permanecem como preliminares até a divulgação das pesquisas estruturais do IBGE e sua incorporação pelo Sistema de Contas Regionais (SCR-MG)."
+          },
+          {
+            "name": "TRIMESTRE",
+            "type": "integer",
+            "format": "default",
+            "title": "Trimestre"
+          },
+          {
+            "name": "AGROPECUARIA",
+            "type": "integer",
+            "format": "default",
+            "title": "Agropecuária",
+            "description": "Em R$ 1.000.000"
+          },
+          {
+            "name": "INDUSTRIA",
+            "type": "integer",
+            "format": "default",
+            "title": "Indústria",
+            "description": "Em R$ 1.000.000"
+          },
+          {
+            "name": "SERVICOS",
+            "type": "integer",
+            "format": "default",
+            "title": "Serviços",
+            "description": "Em R$ 1.000.000"
+          },
+          {
+            "name": "VA",
+            "type": "integer",
+            "format": "default",
+            "title": "Valor Agregado",
+            "description": "Em R$ 1.000.000"
+          },
+          {
+            "name": "PIB",
+            "type": "integer",
+            "format": "default",
+            "title": "Produto Interno Bruto",
+            "description": "Em R$ 1.000.000"
+          }
+        ]
+      },
+      "title": "PIB 2021 3º trimestre - Valores Correntes",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Valores em R$ 1.000.000"
+    }
+  ],
+  "keywords": [
+    "PIB",
+    "economia",
+    "constas estaduais"
+  ],
+  "name": "pib-2021-3",
+  "title": "PIB 2021 - 3º trimestre",
+  "description": "Produto Interno Bruto - 3º trimestre de 2021 ",
+  "homepage": "http://fjp.mg.gov.br/produto-interno-bruto-pib-de-minas-gerais/",
+  "contributors": [
+    {
+      "title": "André Amorim",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-NC-4.0",
+      "title": "Creative Commons Attribution-NonCommercial 4.0",
+      "path": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
+  ]
+}
