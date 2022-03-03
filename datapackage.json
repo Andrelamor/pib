@@ -203,7 +203,7 @@
   "title": "PIB 2021 - 3º trimestre",
   "description": "Produto Interno Bruto - 3º trimestre de 2021 ",
   "homepage": "http://fjp.mg.gov.br/produto-interno-bruto-pib-de-minas-gerais/",
-  "owner-org": "fundacao-joao-pinheiro-fjp",
+  "owner_org": "fundacao-joao-pinheiro-fjp",
   "contributors": [
     {
       "title": "André Amorim",
