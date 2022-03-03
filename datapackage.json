@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "2021-3-serie-encadeada",
-      "path": "2021-3-serie-encadeada.csv",
+      "path": "data/2021-3-serie-encadeada.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -22,89 +22,103 @@
           },
           {
             "name": "AGROPECUARIA-TOTAL",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "total referente à agropecuária"
+            "title": "total referente à agropecuária",
+            "decimalChar": ","
           },
           {
             "name": "EXTR_MINERAL",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Indústria - extração mineral "
+            "title": "Indústria - extração mineral ",
+            "decimalChar": ","
           },
           {
             "name": "TRANSFORMACAO",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Indústria - Transformação"
+            "title": "Indústria - Transformação",
+            "decimalChar": ","
           },
           {
             "name": "ENERGIA_SANEAMENTO",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Indústria - Energia e Saneamento"
+            "title": "Indústria - Energia e Saneamento",
+            "decimalChar": ","
           },
           {
             "name": "CONSTRUCAO_CIVIL",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Indústria - Construção Civil"
+            "title": "Indústria - Construção Civil",
+            "decimalChar": ","
           },
           {
             "name": "INDUSTRIA-TOTAL",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Indústria - TOTAL"
+            "title": "Indústria - TOTAL",
+            "decimalChar": ","
           },
           {
             "name": "COMERCIO",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Serviços - Comércio",
-            "description": "Comércio inclusive manutenção e reparação de veículos automotores e motocicletas."
+            "description": "Comércio inclusive manutenção e reparação de veículos automotores e motocicletas.",
+            "decimalChar": ","
           },
           {
             "name": "TRANSPORTE",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Serviços - Transporte"
+            "title": "Serviços - Transporte",
+            "decimalChar": ","
           },
           {
             "name": "OUTROS",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Serviços - Outros",
-            "description": "Outros serviços incluem serviços de alojamento e alimentação; serviços de informação e comunicação; intermediação financeira, seguros e previdência complementar; atividades profissionais, científicas, técnicas e administrativas; educação e saúde privada; serviços domésticos; artes, cultura, esporte, recreação e outras atividades de serviços; e atividades imobiliárias e aluguéis (inserida ao agrupamento de outros serviços após a incorporação da retropolação e conclusão dos aperfeiçoamentos metodológicos na referência 2010)."
+            "description": "Outros serviços incluem serviços de alojamento e alimentação; serviços de informação e comunicação; intermediação financeira, seguros e previdência complementar; atividades profissionais, científicas, técnicas e administrativas; educação e saúde privada; serviços domésticos; artes, cultura, esporte, recreação e outras atividades de serviços; e atividades imobiliárias e aluguéis (inserida ao agrupamento de outros serviços após a incorporação da retropolação e conclusão dos aperfeiçoamentos metodológicos na referência 2010).",
+            "decimalChar": ","
           },
           {
             "name": "ADMINISTRACAO_PUBLICA",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Serviços - Administração Pública"
+            "title": "Serviços - Administração Pública",
+            "decimalChar": ","
           },
           {
             "name": "SERVICOS-TOTAL",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Serviços - TOTAL"
+            "title": "Serviços - TOTAL",
+            "decimalChar": ","
           },
           {
             "name": "VA",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Valor Agregado"
+            "title": "Valor Agregado",
+            "decimalChar": ","
           },
           {
             "name": "IMPOSTOS",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Impostos"
+            "title": "Impostos",
+            "decimalChar": ","
           },
           {
             "name": "PIB",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Produto Interno Bruto"
+            "title": "Produto Interno Bruto",
+            "decimalChar": ","
           }
         ]
       },
@@ -115,7 +129,7 @@
     },
     {
       "name": "2021-3-valores-correntes",
-      "path": "2021-3-valores-correntes.csv",
+      "path": "data/2021-3-valores-correntes.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -134,38 +148,43 @@
           },
           {
             "name": "AGROPECUARIA",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Agropecuária",
-            "description": "Em R$ 1.000.000"
+            "description": "Em R$ 1.000.000",
+            "groupChar": "."
           },
           {
             "name": "INDUSTRIA",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Indústria",
-            "description": "Em R$ 1.000.000"
+            "description": "Em R$ 1.000.000",
+            "groupChar": "."
           },
           {
             "name": "SERVICOS",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Serviços",
-            "description": "Em R$ 1.000.000"
+            "description": "Em R$ 1.000.000",
+            "groupChar": "."
           },
           {
             "name": "VA",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Valor Agregado",
-            "description": "Em R$ 1.000.000"
+            "description": "Em R$ 1.000.000",
+            "groupChar": "."
           },
           {
             "name": "PIB",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Produto Interno Bruto",
-            "description": "Em R$ 1.000.000"
+            "description": "Em R$ 1.000.000",
+            "groupChar": "."
           }
         ]
       },
